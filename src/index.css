@@ -16,9 +16,13 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/852542438/vector/seamless-pattern-with-lobster.jpg?s=612x612&w=0&k=20&c=9ODsSpGo0Qg2rYt-zV3etxxz2lKoh_5nL0uJXrWWezE=");
+  background-position: center;
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 0;
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,5 +30,4 @@ body {
     color: #213547;
     background-color: #ffffff;
   }
-
 }

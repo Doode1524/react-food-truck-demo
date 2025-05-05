@@ -1,0 +1,13 @@
+.headerWrapper {
+  background-image: url(https://www.chickerystravels.com/wp-content/uploads/2017/04/maine-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+}
