@@ -1,7 +1,11 @@
-import About from './About'
+import About from "./About";
+import OurTeam from "./OurTeam";
 
 export const LandingPage = () => {
   return (
-    <div><About /></div>
-  )
-}
+    <div>
+      <About />
+      <OurTeam />
+    </div>
+  );
+};

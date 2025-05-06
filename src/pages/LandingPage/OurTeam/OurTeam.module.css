@@ -1,0 +1,30 @@
+.teamGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.teamMember {
+  text-align: center;
+
+  & > * {
+    margin: 0;
+  }
+  
+  & > h1 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  & > p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+
+.teamMemberImage {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
