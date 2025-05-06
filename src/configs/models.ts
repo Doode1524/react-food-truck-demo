@@ -3,3 +3,8 @@ export interface ITeamMember {
   title: string;
   img: string;
 }
+
+export interface IMenuItem {
+  name: string;
+  img: string;
+}

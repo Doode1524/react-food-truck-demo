@@ -1,5 +1,5 @@
-import LandingPageSection from "../components/LandingPageSection";
-import { teamMembers } from "../../../configs/landingPage";
+import LandingPageSection from "../LandingPageSection";
+import { teamMembers } from "../../../../configs/landingPage";
 import s from "./OurTeam.module.css";
 
 const OurTeam = () => {

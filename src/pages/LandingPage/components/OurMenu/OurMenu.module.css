@@ -1,0 +1,50 @@
+.menuGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menuItem {
+  flex: 0 0 auto;
+  text-align: center;
+  transition: transform 0.3s ease;
+
+  & > * {
+    margin: 0;
+  }
+
+  & > h1 {
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.menuItem:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.menuImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .menuGallery {
+    gap: 1.5rem;
+  }
+
+  .menuImage {
+    width: 200px;
+    height: 200px;
+  }
+}

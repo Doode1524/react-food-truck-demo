@@ -1,5 +1,5 @@
-import LandingPageSection from "../components/LandingPageSection";
-import { aboutText } from "../../../configs/landingPage";
+import LandingPageSection from "../LandingPageSection";
+import { aboutText } from "../../../../configs/landingPage";
 import s from "./About.module.css";
 
 const About = () => {
