@@ -22,12 +22,31 @@
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
+    color: #333;
+    position: relative;
+
+  }
+
+  & > h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff9e7d, transparent);
+    transform: scaleX(0.7);
+    transition: transform 0.3s ease;
   }
 }
 
 .menuItem:hover {
   transform: translateY(-5px);
   cursor: pointer;
+}
+
+.menuItem:hover > h1::after {
+  transform: scaleX(1);
 }
 
 .menuImage {
