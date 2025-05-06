@@ -4,7 +4,7 @@ import s from "./Footer.module.css";
 const Footer = () => {
   const { description, phone, email, facebook, copyright } = footerContent;
   return (
-    <footer className={s.footer}>
+    <footer id="contact" className={s.footer}>
       <div className={s.footerContent}>
         <h1 className={s.footerTitle}>Contact Us</h1>
         <p className={s.footerText}>{description}</p>

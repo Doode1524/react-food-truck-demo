@@ -16,3 +16,8 @@ export interface IFooterContent {
   facebook: string;
   copyright: string;
 }
+
+export interface INavLink {
+  name: string;
+  href: string;
+}

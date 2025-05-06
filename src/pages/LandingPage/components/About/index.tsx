@@ -4,9 +4,11 @@ import s from "./About.module.css";
 
 const About = () => {
   return (
-    <LandingPageSection title="About Us">
-      <p className={s.aboutText}>{aboutText}</p>
-    </LandingPageSection>
+    <section id="about">
+      <LandingPageSection title="About Us">
+        <p className={s.aboutText}>{aboutText}</p>
+      </LandingPageSection>
+    </section>
   );
 };
 
