@@ -16,7 +16,7 @@ export const teamMembers: ITeamMember[] = [
   {
     name: "Jon Favreau",
     title: "Head Chef and Owner",
-    img: "https://www.twincities.com/wp-content/uploads/2015/11/20140513__140518-chef-1.jpg?w=650",
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix122bWNxwx-SB4-4yC6JobwuqJqyjZg56amZ3U5gUt47zLqauJcAz9-iKBva1VcXjiQLhsDTs0Ffe14jh-6cq503L8CDEcg-UUmnwNRuzhruWP_cAAtECdUHBvrCzIblg4ue4IvvZPXw/s640/blogger-image--67923474.jpg",
   },
   {
     name: "John Leguizamo",
@@ -26,7 +26,7 @@ export const teamMembers: ITeamMember[] = [
   {
     name: "Emjay Anthony",
     title: "Media Extraordinaire",
-    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix122bWNxwx-SB4-4yC6JobwuqJqyjZg56amZ3U5gUt47zLqauJcAz9-iKBva1VcXjiQLhsDTs0Ffe14jh-6cq503L8CDEcg-UUmnwNRuzhruWP_cAAtECdUHBvrCzIblg4ue4IvvZPXw/s640/blogger-image--67923474.jpg",
+    img: "https://www.twincities.com/wp-content/uploads/2015/11/20140513__140518-chef-1.jpg?w=650",
   },
 ];
 

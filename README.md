@@ -7,6 +7,17 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Running the app locally
+
+Close this repo, and open the project in your terminal. Then, run the following commands:
+
+```bash
+nvm use 20.19.1
+npm install
+npm run dev
+```
+You may need to follow the prompts to install node version 20.19.1 if you do not currently have it installed.
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
