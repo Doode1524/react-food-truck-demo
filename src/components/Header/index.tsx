@@ -1,11 +1,11 @@
-import { navLinks } from "../../configs/navlinks";
+import { navLinks, brandName } from "../../configs/header";
 import s from "./Header.module.css";
 
 const Header = () => {
   return (
     <div className={s.headerWrapper}>
       <div className={s.brandContainer}>
-        <h1 className={s.brandName}>Feast from Downeast</h1>
+        <h1 className={s.brandName}>{brandName}</h1>
       </div>
       <nav className={s.navigation}>
         <ul className={s.navList}>
