@@ -6,8 +6,8 @@ const OurTeam = () => {
   return (
     <LandingPageSection title="Our Team">
       <div className={s.teamGallery}>
-        {teamMembers.map((member) => (
-          <div className={s.teamMember}>
+        {teamMembers.map((member, index) => (
+          <div key={index} className={s.teamMember}>
             <img
               className={s.teamMemberImage}
               src={member.img}
