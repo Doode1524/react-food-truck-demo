@@ -4,7 +4,7 @@ import s from "./OurMenu.module.css";
 
 const OurMenu = () => {
   return (
-    <LandingPageSection title="Our Menu">
+    <LandingPageSection title="Our Menu" hasDivider={false}>
       <div className={s.menuGallery}>
         {menuItems.map((item) => (
           <div className={s.menuItem}>

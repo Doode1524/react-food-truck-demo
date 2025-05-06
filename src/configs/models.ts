@@ -8,3 +8,11 @@ export interface IMenuItem {
   name: string;
   img: string;
 }
+
+export interface IFooterContent {
+  description: string;
+  phone: string;
+  email: string;
+  facebook: string;
+  copyright: string;
+}
